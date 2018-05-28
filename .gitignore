@@ -1,0 +1,14 @@
+CMakeFiles/
+build/
+
+*.cmake
+CMakeCache.txt
+Makefile
+
+katana
+katana.exe
+
+lib/ezraknet
+lib/MC-PE-Server
+lib/RakLib
+lib/raklibold
