@@ -1,5 +1,6 @@
 CMakeFiles/
 build/
+.vs/
 
 *.cmake
 CMakeCache.txt
@@ -7,6 +8,7 @@ Makefile
 
 katana
 katana.exe
+*.a
 
 lib/ezraknet
 lib/MC-PE-Server
