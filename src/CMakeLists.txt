@@ -10,8 +10,12 @@ include_directories("${PROJECT_SOURCE_DIR}/lib/RakNet")
 
 add_executable(katana ${SOURCES})
 
+target_link_libraries(katana raknet)
+
 if(ANDROID)
     target_link_libraries(katana z)
 endif(ANDROID)
 
-target_link_libraries(katana raknet)
+if(UNIX)
+    target_link_libraries(katana z pthread)
+endif(UNIX)

@@ -4,6 +4,8 @@ packages/
 Debug/
 obj/
 .vs/
+packages/
+packages.config
 
 *.cmake
 CMakeCache.txt
